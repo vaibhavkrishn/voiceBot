@@ -11,6 +11,7 @@ from rasa_core.interpreter import RegexInterpreter
 from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core.policies.memoization import MemoizationPolicy
 from rasa_core.interpreter import RasaNLUInterpreter
+from myparser import MyParser
 
 logger = logging.getLogger(__name__)
 
@@ -30,7 +31,7 @@ def train_dialogue(domain_file = 'weather_domain.yml',
 	return agent
 	
 def run_weather_bot(serve_forever=True):
-	interpreter = RasaNLUInterpreter('./models/nlu/default/weathernlu')
+	interpreter = MyParser()
 	agent = Agent.load('./models/dialogue', interpreter = interpreter)
 	
 	if serve_forever:
@@ -39,5 +40,5 @@ def run_weather_bot(serve_forever=True):
 	return agent
 	
 if __name__ == '__main__':
-	train_dialogue()
+	#train_dialogue()
 	run_weather_bot()

@@ -33,12 +33,13 @@ class SimpleWebBot(HttpInputComponent):
             logger.info(text)
             out = CollectingOutputChannel()
             on_new_message(UserMessage(text, out, sender_id))
-           # responses = [m for _, m in out.messages]
-            logger.info(out.messages[0])
-            logger.info(out.messages)
-            logger.info(Response())
-            return  jsonify(out.messages[0]['text']), 200
-    
+           # responses = [m for _, m in out.messages] 
+            if out.messages:
+                logger.info(out.messages[0])
+                logger.info(out.messages)
+                logger.info(Response())
+                return  jsonify(out.messages[0]['text']), 200
+            return jsonify('unable to process request'),200
         return custom_webhook
 
 def run(serve_forever=True):

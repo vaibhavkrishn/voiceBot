@@ -261,18 +261,7 @@
           }
         ]
       },
-      {
-        "text": "Describe Newton's law",
-        "intent": "wiki",
-        "entities": [
-          {
-            "start": 9,
-            "end": 21,
-            "value": "newton law",
-            "entity": "wikiInput"
-          }
-        ]
-      },
+
       {
         "text": "Summarize vietnam war",
         "intent": "wiki",
@@ -356,7 +345,68 @@
             "entity": "wikiInput"
           }
         ]
+      },
+	        {
+        "text": "Describe Newtons law",
+        "intent": "wiki",
+        "entities": [
+          {
+            "start": 9,
+            "end": 20,
+            "value": "Newtons law",
+            "entity": "wikiInput"
+          }
+        ]
+      },
+	  {
+        "text": "what is directed acyclic graph ?",
+        "intent": "wiki",
+        "entities": [
+          {
+            "start": 8,
+            "end": 30,
+            "value": "directed acyclic graph",
+            "entity": "wikiInput"
+          }
+        ]
+      },
+      {
+        "text": "what is directed acyclic graph ?",
+        "intent": "wiki",
+        "entities": [
+          {
+            "start": 8,
+            "end": 30,
+            "value": "directed acyclic graph",
+            "entity": "wikiInput"
+          }
+        ]
+      },
+      {
+        "text": "state Newtons law of motion",
+        "intent": "wiki",
+        "entities": [
+          {
+            "start": 6,
+            "end": 27,
+            "value": "Newtons law of motion",
+            "entity": "wikiInput"
+          }
+        ]
+      },
+      {
+        "text": "Describe Newtons law of motion",
+        "intent": "wiki",
+        "entities": [
+          {
+            "start": 9,
+            "end": 30,
+            "value": "Newtons law of motion",
+            "entity": "wikiInput"
+          }
+        ]
       }
+    
   
     ]
   }

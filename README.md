@@ -10,7 +10,7 @@ Latest compatible Rasa NLU version: 0.12.3
 
 Latest compatible Rasa Core version: 0.9.8# voiceBot
 
-#How to run
+# How to run
 
 step1: Launch server.py (this will start the rasa stack listening to port 5009)
 

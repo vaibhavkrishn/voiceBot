@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\Harman_voice_federation\\weatherbot\\Weatherbot_Tutorial\\Full Code [Latest release of Rasa NLU and Rasa Core]\\./models/nlu\\default\\weathernlu\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "D:\\Harman_voice_federation\\weatherbot\\Weatherbot_Tutorial\\Full Code [Latest release of Rasa NLU and Rasa Core]\\./models/nlu\\default\\weathernlu\\intent_classifier_tensorflow_embedding.ckpt"
