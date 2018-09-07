@@ -156,12 +156,20 @@
   },
   "slot_fillers": [
     {
-      "intent": "sampleGetWeather",
-      "slot_filler_name": "slot_filler_sampleGetWeather"
+      "intent": "goodbye",
+      "slot_filler_name": "slot_filler_goodbye"
     },
     {
-      "intent": "sampleTurnOnLight",
-      "slot_filler_name": "slot_filler_sampleTurnOnLight"
+      "intent": "greet",
+      "slot_filler_name": "slot_filler_greet"
+    },
+    {
+      "intent": "inform",
+      "slot_filler_name": "slot_filler_inform"
+    },
+    {
+      "intent": "wiki",
+      "slot_filler_name": "slot_filler_wiki"
     }
   ],
   "unit_name": "probabilistic_intent_parser"

@@ -169,50 +169,72 @@
       "location": {
         "automatically_extensible": true,
         "utterances": {
-          "London": "London",
-          "Los Angeles": "los angeles",
-          "Paris": "Paris",
-          "Rio De Janeiro": "rio de janeiro",
-          "Tel Aviv": "tel aviv",
-          "Tokyo": "Tokyo",
-          "london": "London",
-          "los angeles": "los angeles",
-          "paris": "Paris",
-          "rio de janeiro": "rio de janeiro",
-          "tel aviv": "tel aviv",
-          "tokyo": "Tokyo"
+          "Atlanta": "atlanta",
+          "New York": "new york",
+          "San Francisco": "san francisco",
+          "atlanta": "atlanta",
+          "new york": "new york",
+          "san francisco": "san francisco"
         }
       },
-      "room": {
-        "automatically_extensible": false,
+      "wikiInput": {
+        "automatically_extensible": true,
         "utterances": {
-          "Basement": "basement",
-          "Bathroom": "bathroom",
-          "Bedroom": "bedroom",
-          "Cellar": "basement",
-          "Family Room": "living room",
-          "Kitchen": "kitchen",
-          "Living Room": "living room",
-          "Lounge": "living room",
-          "basement": "basement",
-          "bathroom": "bathroom",
-          "bedroom": "bedroom",
-          "cellar": "basement",
-          "family room": "living room",
-          "kitchen": "kitchen",
-          "living room": "living room",
-          "lounge": "living room"
+          "Bernard Kardon": "Bernard Kardon",
+          "Bill Gates": "Bill Gates",
+          "Bin Laden": "Bin Laden",
+          "Directed Acyclic Graph": "Directed acyclic graph",
+          "Directed acyclic graph": "Directed acyclic graph",
+          "Donald Trump": "Donald Trump",
+          "Harman International Industries": "Harman International Industries",
+          "Mahatma Gandhi": "Mahatma Gandhi",
+          "Maths": "maths",
+          "Nehru": "Nehru",
+          "Nepolean": "Nepolean",
+          "Newton S Law": "Newton's law",
+          "Newton s law": "Newton's law",
+          "Newton'S Law": "Newton's law",
+          "Newton's law": "Newton's law",
+          "NewtonS Law": "Newton's law",
+          "Newtons law": "Newton's law",
+          "Pythogorus Theorm": "pythogorus theorm",
+          "Samsung": "samsung",
+          "Sidney Harman": "Sidney Harman",
+          "Telemetry": "telemetry",
+          "Uncertainity Principle": "uncertainity principle",
+          "Vietnam War": "vietnam war",
+          "bernard kardon": "Bernard Kardon",
+          "bill gates": "Bill Gates",
+          "bin laden": "Bin Laden",
+          "directed acyclic graph": "Directed acyclic graph",
+          "donald trump": "Donald Trump",
+          "harman international industries": "Harman International Industries",
+          "mahatma gandhi": "Mahatma Gandhi",
+          "maths": "maths",
+          "nehru": "Nehru",
+          "nepolean": "Nepolean",
+          "newton s law": "Newton's law",
+          "newton's law": "Newton's law",
+          "newtons law": "Newton's law",
+          "pythogorus theorm": "pythogorus theorm",
+          "samsung": "samsung",
+          "sidney harman": "Sidney Harman",
+          "telemetry": "telemetry",
+          "uncertainity principle": "uncertainity principle",
+          "vietnam war": "vietnam war"
         }
       }
     },
     "language_code": "en",
     "slot_name_mappings": {
-      "sampleGetWeather": {
-        "location": "location",
-        "weatherDate": "snips/datetime"
+      "goodbye": {},
+      "greet": {},
+      "inform": {
+        "date": "snips/datetime",
+        "location": "location"
       },
-      "sampleTurnOnLight": {
-        "room": "room"
+      "wiki": {
+        "wikiInput": "wikiInput"
       }
     }
   },

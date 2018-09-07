@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 from rasa_core.actions.action import Action
 from rasa_core.events import SlotSet
 from rasa_core.events import AllSlotsReset
-
+import re
 import wikipedia
 import logging
 logger = logging.getLogger(__name__)
@@ -42,7 +42,10 @@ class ActionWiki(Action):
 		wiki = tracker.get_slot('wikiInput')
 		logger.info(wiki)
 		try:
-			response = wikipedia.summary(wiki, sentences=2)	
+			response = wikipedia.summary(wiki, sentences=2)
+			logger.info(response)
+			response = re.sub('\([^)]*\)+','',response)
+			
 		except Exception as e:
 			response = 'Can you be more specific please.'
 		

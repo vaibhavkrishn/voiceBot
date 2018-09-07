@@ -18,7 +18,7 @@ def run_nlu():
 	# print(interpreter.parse("where is chennai city located"))
 	print(interpreter.parse("sing a song for me"))
 	print(interpreter.parse("what is 2+3"))
-	print(interpreter.parse("Describe Newtons law of motion"))
+	print(interpreter.parse("Describe Newton laws of motion"))
 	print(interpreter.parse("who is Barack obama"))
 if __name__ == '__main__':
 	train_nlu('./data/data.json', 'config.yml', './models/nlu')
